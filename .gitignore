@@ -1,0 +1,7 @@
+*.o
+*.out
+*.srec
+*.L68
+*.map
+*backups*
+*bak*
