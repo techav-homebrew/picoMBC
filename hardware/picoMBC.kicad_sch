@@ -8496,6 +8496,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 76.2 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12c00972-1238-4fb4-82ff-206001453cf3")
+		(property "Reference" "#PWR054"
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 161.925 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcb9243a-c52d-4980-8e94-c8fb2b6906d4")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 160.02 90)
 		(unit 1)
@@ -9005,46 +9072,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ed")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592ef")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb16")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb18")
 		)
 		(pin "6"
 			(uuid "d08b2cdf-d37c-43bf-97a6-72f154bfe536")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca7")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca9")
 		)
 		(pin "4"
 			(uuid "c9b7e323-2f2e-495d-991c-390839b6e28c")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e6")
+			(uuid "505a4143-617e-404c-8198-aa51d38298e8")
 		)
 		(pin "5"
 			(uuid "2502f63d-f0eb-43c0-b094-21740cc2caf3")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dbf")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc0")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7ccf")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd1")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b1")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b2")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb701f")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7021")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957d")
+			(uuid "d3243f8f-2a24-410a-be6e-e4990957957f")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a897")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a899")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043a")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043b")
 		)
 		(instances
 			(project "picoMBC"
@@ -9516,6 +9583,140 @@
 			(project "picoMBC"
 				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b5f5156-cc93-4921-9c63-c20389821cfc")
+		(property "Reference" "#PWR060"
+			(at 158.75 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.9251 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96c41d25-4eb7-4376-9cf4-e3d69056059c")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d26e089-c16b-4933-98de-987ab0fe03e9")
+		(property "Reference" "#PWR058"
+			(at 168.91 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 161.9251 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d400eeaf-1c40-4f6f-8060-cbb3448f85ac")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -10710,46 +10911,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ed")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f0")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb16")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb19")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc38")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3a")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca7")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37caa")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fb")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fd")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e6")
+			(uuid "505a4143-617e-404c-8198-aa51d38298e9")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a68")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6a")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dbf")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc1")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7ccf")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd2")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b1")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b3")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb701f")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7022")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957d")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579580")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a897")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89a")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043a")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043c")
 		)
 		(instances
 			(project ""
@@ -11558,52 +11759,119 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ef")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f1")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb18")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb1a")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3a")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3b")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca9")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37cab")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fd")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fe")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e8")
+			(uuid "505a4143-617e-404c-8198-aa51d38298ea")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6a")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6b")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc1")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc2")
 		)
 		(pin "14"
 			(uuid "ca2f6079-896d-423b-8179-692afabdb0fc")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b3")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b4")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7021")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7023")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957f")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579581")
 		)
 		(pin "7"
 			(uuid "db08550f-e3cf-4789-8ad5-45d05d618dfe")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043c")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043d")
 		)
 		(instances
 			(project "picoMBC"
 				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
 					(reference "U5")
 					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 165.1 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d032a2b-2bef-48eb-ae83-57474e8acf99")
+		(property "Reference" "#PWR059"
+			(at 158.75 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.9251 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 165.1 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc54e90a-0611-4ed2-8b9e-c793d5307b3a")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR059")
+					(unit 1)
 				)
 			)
 		)
@@ -11671,46 +11939,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592f0")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f2")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb19")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb1b")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3b")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3c")
 		)
 		(pin "11"
 			(uuid "92e4e344-f1fb-4854-8c76-e811b220dc74")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fe")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019ff")
 		)
 		(pin "12"
 			(uuid "e34e56e2-a8fe-4366-bde6-290dd57f02ee")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6b")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6c")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc2")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc3")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7cd2")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd3")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b4")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b5")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7022")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7024")
 		)
 		(pin "13"
 			(uuid "ef065a82-c338-4071-9ade-343baef6d6d9")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a89a")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89b")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043d")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043e")
 		)
 		(instances
 			(project "picoMBC"
@@ -11923,40 +12191,40 @@
 			(uuid "8f6a669f-15c5-4d20-9091-8199eccfc835")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3c")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3d")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37cab")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37cac")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019ff")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed01a00")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298ea")
+			(uuid "505a4143-617e-404c-8198-aa51d38298eb")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6c")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6d")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc3")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc4")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7cd3")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd4")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b5")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b6")
 		)
 		(pin "2"
 			(uuid "337d7488-382c-4141-9da6-36a52f4aca0f")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e49909579581")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579582")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a89b")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89c")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043e")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043f")
 		)
 		(instances
 			(project "picoMBC"
@@ -12498,52 +12766,134 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ed")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f3")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb16")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb1c")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc38")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3e")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca7")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37cad")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fb")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed01a01")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e6")
+			(uuid "505a4143-617e-404c-8198-aa51d38298ec")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a68")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6e")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dbf")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc5")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7ccf")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd5")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b1")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b7")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb701f")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7025")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957d")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579583")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a897")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89d")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043a")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a0440")
 		)
 		(instances
 			(project ""
 				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
 					(reference "U2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 170.18 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b0916e37-dec3-4652-9dc7-677c8fe70d02")
+		(property "Reference" "J6"
+			(at 172.212 81.3378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 172.212 83.7621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 170.18 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9fce0828-c6f4-4e32-8ef9-d0dd1d536496")
+		)
+		(pin "3"
+			(uuid "655257d7-66e8-48aa-921b-9153bd3328aa")
+		)
+		(pin "5"
+			(uuid "12f3f540-5315-40c7-a851-5cd11ddad9fb")
+		)
+		(pin "4"
+			(uuid "4b6fc5a9-31b9-40be-9326-eeb3ea87aa49")
+		)
+		(pin "6"
+			(uuid "2bf21a33-4560-41a3-8dc0-02c469edac87")
+		)
+		(pin "1"
+			(uuid "0a66c627-6b67-4b51-a855-06e28717fde3")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "J6")
+					(unit 1)
 				)
 			)
 		)
@@ -12996,6 +13346,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 165.1 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8fb3bbc-c2c3-4d57-ab70-6e07c9f0b930")
+		(property "Reference" "#PWR055"
+			(at 168.91 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 161.925 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe01ea4a-a982-4194-bd9e-28af14104bb5")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:Jumper_3_Open")
 		(at 59.69 177.8 270)
 		(unit 1)
@@ -13140,46 +13557,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ed")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f4")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb16")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb1d")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc38")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc3f")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca7")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37cae")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fb")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed01a02")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e6")
+			(uuid "505a4143-617e-404c-8198-aa51d38298ed")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a68")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a6f")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dbf")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc6")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7ccf")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd6")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b1")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b8")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb701f")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7026")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957d")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579584")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a897")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89e")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043a")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a0441")
 		)
 		(instances
 			(project ""
@@ -13253,46 +13670,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "39c308e1-dcd7-4337-b29e-680deea592ed")
+			(uuid "39c308e1-dcd7-4337-b29e-680deea592f5")
 		)
 		(pin "3"
-			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb16")
+			(uuid "9a70cf5c-5a50-41f0-8ad5-f409d439fb1e")
 		)
 		(pin "6"
-			(uuid "f81817a0-d604-4588-8a13-7f69efdddc38")
+			(uuid "f81817a0-d604-4588-8a13-7f69efdddc40")
 		)
 		(pin "11"
-			(uuid "afee1188-1845-40ba-93b4-e8628ac37ca7")
+			(uuid "afee1188-1845-40ba-93b4-e8628ac37caf")
 		)
 		(pin "4"
-			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed019fb")
+			(uuid "5e0b27b0-a93c-4da4-b158-40eeeed01a03")
 		)
 		(pin "12"
-			(uuid "505a4143-617e-404c-8198-aa51d38298e6")
+			(uuid "505a4143-617e-404c-8198-aa51d38298ee")
 		)
 		(pin "5"
-			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a68")
+			(uuid "e4e89c3a-f0b9-4265-aa06-9479d9514a70")
 		)
 		(pin "10"
-			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dbf")
+			(uuid "0d7d2c91-2afb-4430-bfdb-649a385e3dc7")
 		)
 		(pin "14"
-			(uuid "e29870d6-168d-414c-a742-88bd007c7ccf")
+			(uuid "e29870d6-168d-414c-a742-88bd007c7cd7")
 		)
 		(pin "8"
-			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b1")
+			(uuid "31ee1dab-f53d-4375-8a49-3a06889426b9")
 		)
 		(pin "2"
-			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb701f")
+			(uuid "f4b7cbfe-da87-4928-a0d6-3d6a6abb7027")
 		)
 		(pin "13"
-			(uuid "d3243f8f-2a24-410a-be6e-e4990957957d")
+			(uuid "d3243f8f-2a24-410a-be6e-e49909579585")
 		)
 		(pin "7"
-			(uuid "d1a094f8-b07f-4323-a369-e649b327a897")
+			(uuid "d1a094f8-b07f-4323-a369-e649b327a89f")
 		)
 		(pin "9"
-			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a043a")
+			(uuid "113f5ffa-557c-4ba3-a8ea-58ee491a0442")
 		)
 		(instances
 			(project ""
@@ -14058,6 +14475,73 @@
 			(project ""
 				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 165.1 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd8ae01f-ded4-4ac7-be9b-aa055ba64ed2")
+		(property "Reference" "#PWR056"
+			(at 168.91 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 161.9251 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 165.1 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98f283e5-2461-4314-9953-4f2eb44f3dad")
+		)
+		(instances
+			(project "picoMBC"
+				(path "/30dd2629-5610-4a98-95ab-c41d54439d1e"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
